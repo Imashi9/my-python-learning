@@ -17,9 +17,6 @@
 # print(round(3.27,1)) #This will print the rounded value of num1 which is 3.3 because requested the first didgit.
 
 #Use comparisons for numbers
-import string
-
-
 num_1 = 3
 num_2 = 2
 print(num_1 > num_2) #This will print True because num_1 is greater than num_2
