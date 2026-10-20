@@ -17,6 +17,9 @@
 # print(round(3.27,1)) #This will print the rounded value of num1 which is 3.3 because requested the first didgit.
 
 #Use comparisons for numbers
+import string
+
+
 num_1 = 3
 num_2 = 2
 print(num_1 > num_2) #This will print True because num_1 is greater than num_2
@@ -24,4 +27,12 @@ print(num_1 < num_2) #This will print False because num_1 is not less than num_2
 print(num_1 >= num_2) #This will print True because num_1 is greater than or equal to num_2
 print(num_1 <= num_2) #This will print False because num_1 is not less than or equal to num_2
 print(num_1 == num_2) #This will print False because num_1 is not equal to num_2
-print(num_1 != num_2) #This will print True because num_1 is not equal to num_2     
+print(num_1 != num_2) #This will print True because num_1 is not equal to num_2   
+
+#casting
+num_1 = '10'
+num_2 = '20'
+print(num_1 + num_2) #This will print 1020 because num_1 and num_2 are strings. So, they will be concatenated. This is called string concatenation.
+num_1 = int(num_1) #This will convert num_1 to an integer
+num_2 = int(num_2) #This will convert num_2 to an integer
+print(num_1 + num_2) #This will print 30 because num_1 and num_2 are now integers. So, they will be added. This is called integer addition.
