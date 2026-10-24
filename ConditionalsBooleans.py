@@ -47,7 +47,7 @@
 
 
 #False,None,0,empty string,empty list,empty tuple,empty dictionary are evaluated to False   
-condition = 10
+condition = 'Test' 
 
 if condition:
     print("Evaluated to True")
